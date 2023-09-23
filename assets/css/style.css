@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: rgb(252, 27, 27);
+}
+header>nav>img{
+    height: 90px;
+    width: 150px;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover a{
+    color: pink;
+}
+.commonBanner{
+    text-align: center;
+    color: #fff;
+    height: 400px;
+    padding: 20px;
+}
+.commonBanner>div>h1{
+    font-size: 60px;
+    text-shadow: -3px -3px 3px #000,3px 3px 3px #000;
+    position: relative;
+}
+.commonBanner>div{
+    background-color: rgba(0, 0,0,0.3);
+    padding: 30px;
+    line-height: 2;
+    display: inline-block;
+    box-shadow: -3px -3px 3px #000,3px 3px 3px #000;
+    
+}
+.desktop{
+    position: relative;
+    object-fit: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+/* .back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+} */
+.banner1>video{
+    background-size: cover;
+}
+.mobile{
+    
+    z-index: -1;
+}
+.tablet{
+    display: none;
+    z-index: -1;
+}
